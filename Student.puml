@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+
+
+class Student {
++Name: string
++Grade: char
++Group: int
+-SecretNickName: string
++setStudentName(name: String): void
++setStudentGrade(grade: char): void
++setStudentGroup(group: int): void
++changeGrade(grade: char): String
+}
+
+@enduml
