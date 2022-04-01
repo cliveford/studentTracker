@@ -4,14 +4,15 @@ skinparam classAttributeIconSize 0
 
 
 class Student {
-+Name: string
-+Grade: char
-+Group: int
--SecretNickName: string
-+setStudentName(name: String): void
-+setStudentGrade(grade: char): void
-+setStudentGroup(group: int): void
-+changeGrade(grade: char): String
+#name: String
+#grade: String
+#group: String
+-NICKNAME: String
++addStudentToList(Student): void
++getStudentDetails(): ArrayList
++getStudentGrade(String studentName): String
++setGrade(String studentName, String grade): void
+
 }
 
 @enduml
